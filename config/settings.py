@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-bu^-88sv^j%mg1@tyw+whjhruz17=p(gfr2)3a8e(k6#x*t-1i
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['api.epany.io']
 
 
 # Application definition
@@ -118,7 +118,7 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
-
+STATIC_ROOT = '/home/epanyio/api.epany.io/static'
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
